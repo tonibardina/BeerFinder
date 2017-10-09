@@ -1,0 +1,144 @@
+body {
+}
+::-webkit-scrollbar              { color: black; }
+::-webkit-scrollbar-button       { color: black; }
+::-webkit-scrollbar-track        { color: black; }
+::-webkit-scrollbar-track-piece  { color: black; }
+::-webkit-scrollbar-thumb        { color: black; }
+::-webkit-scrollbar-corner       { color: black; }
+::-webkit-resizer                { color: black; }
+
+
+.tittle_img {
+  max-width: 160px;
+  margin: 35px;
+}
+
+.left-bar {
+  background-color: #151515; 
+  height: 1000px;
+  position: fixed;
+  left: 0px;
+
+}
+
+.right-bar {
+  height: 1000px;
+  background:url('img-back.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  right: 0px;
+  padding: 0px;
+}
+
+.input-search {
+  background-color: #151515;
+  border-style: none;
+  border-bottom: 1px solid white;
+  margin-left: 35px;
+  color: white;
+  outline: none;
+}
+
+.search-button {
+  background-color: #151515;
+  border-style: none;
+  outline: none;
+}
+
+.search-button img{
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #151515 inset;
+  -webkit-text-fill-color: white;
+}
+
+.img-posted {
+  margin:10px;
+  max-width: 110px;
+}
+
+.back-img-posted {
+  background-color: rgba(0,0,0, 0.4);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Helvetica';
+  margin-left: 35px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+h4 {
+  margin-top: 0px;
+}
+
+.beer-icon{
+  width: 15px;
+  height: 15px;
+}
+
+.beer-list{
+  overflow: scroll;
+  width: 400px;
+  height: 500px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+
+}
+
+.new-back {
+  background-color: rgba(0, 0, 0,  0.7);
+  width: 100%;
+  height: 1000px;
+  margin-top: 0px;
+}
+
+.body-text {
+  color: white;
+  max-width: 450px;
+}
+
+#desc-img{
+  max-width: 170px;
+  max-height: 170px;
+}
+
+#img-top-bar {
+  width: 100%;
+  background-color: #151515;
+  height: 170px;
+  display: flex;
+  align-items: center;
+}
+
+#img-top-bar h4 {
+  margin-left: 55px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.new-back span {
+  margin: auto;
+  max-width: 600px;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.new-back span p {
+  color: white;
+  margin-top: 200px;
+}
